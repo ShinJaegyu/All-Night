@@ -163,11 +163,9 @@ class UserController extends Controller
     }
 
     /**
-     * validateVal
-     *
-     * @param mixed $data
-     * @param mixed $type
-     * @return array status|errors
+     * @param $data
+     * @param $type
+     * @return array
      */
     private function validateVal($data, $type) {
         $errors = [];
@@ -177,7 +175,8 @@ class UserController extends Controller
                 $rules = [
                     'name' => ['required','regex:/[a-zA-Z가-힣]/','max:10'],
                     'email' => ['required','email','unique:users,email'],
-                    'password' => ['required'],
+                    'password' => ['required','confirmed'],
+                    'password_confirmation' => ['required'],
                 ];
                 break;
             case 'update':
@@ -202,6 +201,8 @@ class UserController extends Controller
             'email.email' => '이메일이 형식에 맞지 않습니다.',
             'email.unique' => '이미 가입된 이메일입니다.',
             'password.required' => '비밀번호를 입력해주세요',
+            'password.confirmed' => '비밀번호 확인이 일치하지 않습니다.',
+            'password_confirmation.required' => '비밀번호 확인란을 입력해주세요.',
         ];
 
         $validator = \Validator::make($data, $rules, $messages);

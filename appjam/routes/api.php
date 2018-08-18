@@ -23,4 +23,7 @@ Route::group(['prefix' => '/v1', 'namespace' => 'api\v1'], function() {
 
     // 로그인
     Route::post('login','UserController@login');
+
+    // 예측 데이터 관련 컨트롤러
+    Route::resource('predict','PredictController')->except(['create','edit','show','update','destroy']);
 });

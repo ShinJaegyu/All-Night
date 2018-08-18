@@ -115,13 +115,13 @@ header .header-message {
 
 /*about end*/
 
-.Recommand-container {
+.Recommend-container {
     width: 100%;
     height: 600px;
     background-color: white;
 }
 
-.recommand-box {
+.recommend-box {
     width: 300px;
     height: 400px;
     background-color: #F7F7F7;
@@ -132,11 +132,22 @@ header .header-message {
     float: right;
 }
 
-/* recommand end */
+/* recommend end */
+
+.chatting-container {
+    line-height: 17rem;
+}
+
+.chatting-box {
+    float: right;
+    margin-left: 10%;
+}
+
+/* chatting end */
 
 .footer-block {
-    margin-top: 70%;
+    margin-top: 55%;
     width: 100%;
     height: 300px;
-    background-color: #161616
+    background-color: #161616;
 }

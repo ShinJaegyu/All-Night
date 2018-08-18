@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>All-Night</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./static/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/style.css" />
 </head>
 <body>
 <header>
@@ -58,32 +58,32 @@
             <div class="movie-wrap">
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon1.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon1.png" alt="icon-img"></a>
                     </div>
                 </div>
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon2.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon2.png" alt="icon-img"></a>
                     </div>
                 </div>
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon3.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon3.png" alt="icon-img"></a>
                     </div>
                 </div>
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon4.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon4.png" alt="icon-img"></a>
                     </div>
                 </div>
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon5.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon5.png" alt="icon-img"></a>
                     </div>
                 </div>
                 <div class="icon-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/icon/icon6.png" alt="icon-img"></a>
+                        <a href="#"><img src="/static/img/icon/icon6.png" alt="icon-img"></a>
                     </div>
                 </div>
             </div>
@@ -97,22 +97,22 @@
             <div class="movie-wrap">
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/movie/movie.jpg" alt="movie-img"></a>
+                        <a href="#"><img src="/static/img/movie/movie.jpg" alt="movie-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/movie/movie1.jpg" alt="movie-img"></a>
+                        <a href="#"><img src="/static/img/movie/movie1.jpg" alt="movie-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/movie/movie2.jpg" alt="movie-img"></a>
+                        <a href="#"><img src="/static/img/movie/movie2.jpg" alt="movie-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/movie/movie3.jpg" alt="movie-img"></a>
+                        <a href="#"><img src="/static/img/movie/movie3.jpg" alt="movie-img"></a>
                     </div>
                 </div>
             </div>
@@ -126,22 +126,22 @@
             <div class="movie-wrap">
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/book/book.png" alt="book-img"></a>
+                        <a href="#"><img src="/static/img/book/book.png" alt="book-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/book/book1.png" alt="book-img"></a>
+                        <a href="#"><img src="/static/img/book/book1.png" alt="book-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/book/book2.png" alt="book-img"></a>
+                        <a href="#"><img src="/static/img/book/book2.png" alt="book-img"></a>
                     </div>
                 </div>
                 <div class="movie-item">
                     <div class="movie-item-wrap">
-                        <a href="#"><img src="static/img/book/book3.png" alt="book-img"></a>
+                        <a href="#"><img src="/static/img/book/book3.png" alt="book-img"></a>
                     </div>
                 </div>
             </div>
